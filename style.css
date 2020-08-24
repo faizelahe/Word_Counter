@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* text-align: center; */
+    background: url('bkg.jpg') no-repeat center center / cover;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1rem;
+}
+
+textarea, textarea:enabled {
+    background-color: #ebf8f8;
+    margin: 5rem;
+    width: 667px;
+    height: 579px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 8px solid #deb887;
+}
+
+.counted-words {
+    margin-top: 25rem;
+}
+
+.counted-words input {
+    border: 4px solid cornflowerblue;
+}
